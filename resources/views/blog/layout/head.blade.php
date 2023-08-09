@@ -24,3 +24,4 @@
 <link rel="stylesheet" href="assets/plugins/aos/aos.css">
 
 <link rel="stylesheet" href="assets/css/style.css">
+
