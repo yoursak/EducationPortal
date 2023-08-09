@@ -17,6 +17,11 @@
                     @include('blog.layout.header')
                 </nav>
             </div>
+            <div class="header-fixed-three header-fixed">
+                <nav class="navbar navbar-expand-lg header-nav-three scroll-sticky">
+
+                </nav>
+            </div>
         </header>
 
 
@@ -26,7 +31,7 @@
                     <div class="col-xl-6 col-lg-8 col-md-12 col-12" data-aos="fade-down">
                         <div class="home-three-slide-face">
                             <div class="home-three-slide-text">
-                                <h5>The Leader in Online Learning</h5>
+                                <h5>Online Tutorials and  Learning</h5>
                                 <h1>Engaging <span>&</span> Accessible Online Courses For All</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget aenean accumsan
                                     bibendum gravida maecenas augue elementum et</p>
@@ -80,7 +85,57 @@
                                 </div>
                             </div>
                         </div>
-
+                        <div class="col-lg-3 col-md-6 d-flex" data-aos="fade-up">
+                            <div class="course-details-three">
+                                <div class="align-items-center">
+                                    <a href="#">
+                                        <div class="course-count-three course-count ms-0">
+                                            <div class="course-img">
+                                                <img class="img-fluid" src="{{asset('assets/img/mycource/css.png')}}" alt>
+                                            </div>
+                                            <div class="course-content-three">
+                                                <h4 class="text-blue">CSS</h4>
+                                                <p>Online Courses</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 d-flex" data-aos="fade-up">
+                            <div class="course-details-three">
+                                <div class="align-items-center">
+                                    <a href="#">
+                                        <div class="course-count-three course-count ms-0">
+                                            <div class="course-img">
+                                                <img class="img-fluid" src="{{asset('assets/img/mycource/javascript.png')}}" alt>
+                                            </div>
+                                            <div class="course-content-three">
+                                                <h4 class="text-blue">Javascript</h4>
+                                                <p>Online Courses</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 d-flex" data-aos="fade-up">
+                            <div class="course-details-three">
+                                <div class="align-items-center">
+                                    <a href="#">
+                                        <div class="course-count-three course-count ms-0">
+                                            <div class="course-img">
+                                                <img class="img-fluid" src="{{asset('assets/img/mycource/bootstrap.png')}}" alt>
+                                            </div>
+                                            <div class="course-content-three">
+                                                <h4 class="text-blue">Bootstrap</h4>
+                                                <p>Online Courses</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
